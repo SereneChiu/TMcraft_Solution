@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TMcraft_Node_UserControl;
+using TMcraft_Toolbar_UserControl;
 
 namespace TMcraft_Node_App
 {
@@ -24,7 +25,8 @@ namespace TMcraft_Node_App
         public MainWindow()
         {
             InitializeComponent();
-            this.mainContentControl.Content = new UserControl1();
+            this.mainContentControl.Content = new TMcraft_Toolbar_UserControl.UserControl1();
+            //this.mainContentControl.Content = new TMcraft_Node_UserControl.UserControl1();
         }
     }
 }

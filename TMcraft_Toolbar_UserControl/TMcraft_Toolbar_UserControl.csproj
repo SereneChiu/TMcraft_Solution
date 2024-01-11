@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMcraft_Library\TMcraft_Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TMcraft">
+      <HintPath>..\..\..\TMcraft\TMcraft.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

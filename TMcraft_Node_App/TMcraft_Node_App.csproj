@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TMcraft_Node_UserControl\TMcraft_Node_UserControl.csproj" />
+    <ProjectReference Include="..\TMcraft_Toolbar_UserControl\TMcraft_Toolbar_UserControl.csproj" />
   </ItemGroup>
 
 </Project>

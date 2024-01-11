@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,6 @@ namespace TMcraft_Library
     {
         public string Version { get; set; } = "1.0";
 
-        public List<VariableModel> VariableModelList { get; set; } = new List<VariableModel>();
+        public BindingList<VariableModel> VariableModelList { get; set; } = new BindingList<VariableModel>();
     }
 }
