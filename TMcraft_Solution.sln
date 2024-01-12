@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMcraft_Node_UserControl", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMcraft_Node_App", "TMcraft_Node_App\TMcraft_Node_App.csproj", "{2D53D7C3-D6D0-43FD-84C2-6318E26C5BA1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMcraft_Library", "TMcraft_Library\TMcraft_Library.csproj", "{A8EBA1AF-7B40-4A89-8D62-9BB3A8FB1551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFileManager", "TMcraft_Library\TextFileManager.csproj", "{A8EBA1AF-7B40-4A89-8D62-9BB3A8FB1551}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMcraft_Toolbar_UserControl", "TMcraft_Toolbar_UserControl\TMcraft_Toolbar_UserControl.csproj", "{8556839F-5E1E-43C8-80CD-876169408168}"
 EndProject

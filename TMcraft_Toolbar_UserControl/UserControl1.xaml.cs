@@ -57,6 +57,7 @@ namespace TMcraft_Toolbar_UserControl
         private void btn_add_value_Click(object sender, RoutedEventArgs e)
         {
             mTextService.AddDataList(mVariable_Model.Name, mVariable_Model.Value);
+            mTextService.SaveDataList();
         }
 
     }

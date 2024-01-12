@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TMcraft_Library\TMcraft_Library.csproj" />
+    <ProjectReference Include="..\TMcraft_Library\TextFileManager.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,12 +2,10 @@
 <GeneralVariableTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>1.0</Version>
   <Variables>
-    <Variable Name="Variable1" Value="100" />
-	<Variable Name="Variable2" Value="200" />
-	<Variable Name="Variable3" Value="300" />
-	<Variable Name="Variable4" Value="400" />
-	<Variable Name="Variable5" Value="500" />
-	<Variable Name="Variable6" Value="600" />
-	<Variable Name="Variable7" Value="700" />
+    <Variable Name="Variable3" Value="300" />
+    <Variable Name="Variable4" Value="400" />
+    <Variable Name="Variable5" Value="500" />
+    <Variable Name="Variable6" Value="600" />
+    <Variable Name="123" Value="1110" />
   </Variables>
 </GeneralVariableTable>
