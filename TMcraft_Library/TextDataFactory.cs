@@ -17,7 +17,6 @@ namespace TMcraft_Library
         private static void CheckTextFolder()
         {
             if (Directory.Exists(Target_Folder)) { return; }
-
             Directory.CreateDirectory(Target_Folder);
         }
 
@@ -27,10 +26,7 @@ namespace TMcraft_Library
 
             if (File.Exists(FileName_Txt) == false)
             {
-                using (var stream = File.Create(FileName_Txt))
-                {
-                    // Use stream
-                }
+                using (var stream = File.Create(FileName_Txt)) { }
             }
 
             File.Copy(FileName_Txt, FileName_Xml, true);
@@ -46,15 +42,12 @@ namespace TMcraft_Library
             {
 
                 if (serializer.CanDeserialize(reader) == false)
-                {
-                    reader.Close();
-                    return;
+                { 
+                    reader.Close(); return; 
                 }
-
                 data = (ExchangeTextData)serializer.Deserialize(reader);
             }
             catch { }
-
             reader.Close();
 
             foreach (VariableData p in data.VariableDataList)
@@ -65,8 +58,6 @@ namespace TMcraft_Library
 
         public static void SaveDataToFile(ITextDataService Data)
         {
-            // Creates an instance of the XmlSerializer class;
-            // specifies the type of object to serialize.
             XmlSerializer serializer = new XmlSerializer(typeof(ExchangeTextData));
             TextWriter writer = new StreamWriter(FileName_Xml);
             serializer.Serialize(writer, GenerateSerializeData(Data));
