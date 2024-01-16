@@ -25,8 +25,8 @@ namespace TMcraft_Node_App
         public MainWindow()
         {
             InitializeComponent();
-            this.mainContentControl.Content = new TMcraft_Toolbar_UserControl.UserControl1();
-            //this.mainContentControl.Content = new TMcraft_Node_UserControl.UserControl1();
+            //this.mainContentControl.Content = new TMcraft_Toolbar_UserControl.UserControl1();
+            this.mainContentControl.Content = new TMcraft_Node_UserControl.UserControl1();
         }
     }
 }

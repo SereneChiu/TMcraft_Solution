@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TMcraft_Node_UserControl\TMcraft_Node_UserControl.csproj" />
-    <ProjectReference Include="..\TMcraft_Toolbar_UserControl\TMcraft_Toolbar_UserControl.csproj" />
+    <ProjectReference Include="..\TMcraft_Node_UserControl\TMcraft_Node_UserControl.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TMcraft_Toolbar_UserControl\TMcraft_Toolbar_UserControl.csproj">
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
